@@ -5,61 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fab48f34-88f4-4004-b390-307e70db7d6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglos/src/ArregloUltPrimOrdenar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglos/src/EjemploArregloDetectarOrden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglos/src/EjemploArreglos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglos/src/EjemploArreglosCombinados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglos/src/EjemploArreglosFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglos/src/EjemploArreglosForMetodoBurbuja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglos/src/EjemploArreglosForMutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglos/src/EjemploArreglosForPrincipioFinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglos/src/EjemploArreglosNumMayor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglos/src/EjemploArreglosNumMayor2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglos/src/EjemploArreglosParesImpares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Automovil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjemploAutomovil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Arreglos/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arreglos/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arreglos/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1_primitivos.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Arreglos/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/.idea/dictionaries/angel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/HolaMundo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/POO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/ConversionDeTipos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/FlujosDeControl/SentenciaFor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/FlujosDeControl/SentenciaIfElse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/FlujosDeControl/SentenciaIfElseNumDiaMes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/FlujosDeControl/SetenciaForArreglo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/HolaMundo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/Primitivos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/PrimitivosBoolean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/PrimitivosCaracteres.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/PrimitivosEnteros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/PrimitivosFloat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/SistemasNumericos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/SistemasNumericosEntradaScanner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Master-Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Master-Java/ConversionDeTipos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Master-Java/HolaMundo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Master-Java/Primitivos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Master-Java/PrimitivosBoolean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Master-Java/PrimitivosCaracteres.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Master-Java/PrimitivosEnteros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Master-Java/PrimitivosFloat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Master-Java/SistemasNumericos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Master-Java/SistemasNumericosEntradaScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arreglos/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arreglos/Arreglos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Automovil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Automovil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EjemploAutomovil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjemploAutomovil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +24,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AngeloVellar"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7d74eab4-ec8f-4fbd-995b-162f8dbc1a6d" />
+        <option name="url" value="https://github.com/AngeloVellar/Master-Java.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -91,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/angel/Desktop/Programación/Master-Java/Arreglos",
+    "last_opened_file_path": "C:/Users/angel/Desktop/Programación/Master-Java/POO",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
