@@ -125,7 +125,7 @@ public class Automovil {
     public String verDetalle(){
         return  "auto.Id = " + this.id +
                 "\nFabricante = " + this.getFabricante() +
-                "\nCilindrada" + this.getCilindrada() +
+                "\nCilindrada" + this .getCilindrada() +
                 "\nauto.tipo = " + this.getTipo().getDescripcion() +
                 "\nautto.patenteColor = " + colorPatente +
                 "\nColor" + this.getColor() +

@@ -1,3 +1,4 @@
+
 public class EjemploAutomovilEnum {
     public static void main(String[] args) {
 
@@ -10,23 +11,28 @@ public class EjemploAutomovilEnum {
         //         ---------------Segundo Objeto------------------
         Automovil dodge = new Automovil("dodge",Color.NEGRO,"Ram",4.0,60);
         dodge.setTipo(TipoAutomovil.SATION_WAGON);
+        TipoAutomovil tipoDodge = dodge.getTipo();
 
-        //         ---------------Tercer Objeto------------------
-        Automovil ford2 =  new Automovil("ford","focus");
-        ford2.setTipo(TipoAutomovil.SEDAN);
-        Automovil.setCapacidadDelTanqueEstatico(45);
-        System.out.println("Km por litro = " + Automovil.calcularConsumoStatico(300,60));
+        switch (tipoDodge){
+            case CONVERTIBLE ->
+                System.out.println("El automovil es deportivo y descapotable de dos puertas");
+            case COUPE ->
+                System.out.println("Es un automovil pequeño de dos puertas tipicamente deportivo");
+            case TRAFIC->
+                System.out.println("Es un automovil utilitario de transporte");
+            case HATCHBACK ->
+                System.out.println("Es un automovil mediano compacto, aspecto deportivo");
+            case SATION_WAGON ->
+                System.out.println("Es un automovil mas  grande, con maleta grande");
+        }
 
-        Automovil.setColorPatente(Color.BLANCO);
-        System.out.println("Automovil Color Patente = " + Automovil.getColorPatente());
-        System.out.println(ford.verDetalle());
-        System.out.println(dodge.verDetalle());
-        System.out.println(ford2.verDetalle());
-
-        //                                  ---CONSTANTE FINAL---
-        System.out.println("Velocdiad Maxima en Carretera = " + Automovil.VELOCIDAD_MAX_CARRETERA);
-        System.out.println("Velocdiad Maxima en Ciudad = " + Automovil.VELOCIDAD_MAX_CIUDAD);
-
-
+        TipoAutomovil[] tipos = TipoAutomovil.values();
+        for(TipoAutomovil ta: tipos){
+            System.out.print(ta + " -> " + ta.name() + ", " +
+                    ta.getNombre() + ", " +
+                    ta.getDescripcion() + ", " +
+                    ta.getNumPuertas());
+            System.out.println();
+        }
     }
 }

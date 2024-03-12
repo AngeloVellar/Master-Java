@@ -27,6 +27,5 @@ public class EjemploAutomovilStatic {
         System.out.println("Velocdiad Maxima en Carretera = " + Automovil.VELOCIDAD_MAX_CARRETERA);
         System.out.println("Velocdiad Maxima en Ciudad = " + Automovil.VELOCIDAD_MAX_CIUDAD);
 
-
     }
 }

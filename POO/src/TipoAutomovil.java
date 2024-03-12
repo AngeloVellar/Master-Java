@@ -2,9 +2,10 @@ public enum TipoAutomovil {
     SEDAN("Sedan", "Auto normal", 4),
     SATION_WAGON("Station Wagon", "Auto grande", 4),
     HATCHBACK("Hatchback", "Auto compacto", 4),
-    PICKUP("Coupé", "Auto pequeño", 2),
+    COUPE("Coupé", "Auto pequeño", 2),
     CONVERTIBLE("Convertible","Auto deportivo", 2),
     TRAFIC("Trafic", "Auto utilitario", 4);
+
 
     private final String nombre;
     private final int numpuertas;
