@@ -3,8 +3,10 @@ public class Automovil {
     private String fabricante;
     private Color color = Color.GRIS;
     private String modelo;
-    private double cilindrada;
-    private int capacidadDelTanque = 40;
+    private Motor motor;
+    private Tanque tanque;
+    private Persona conductor;
+    private Rueda[] ruedas;
     private TipoAutomovil tipo;
     private static Color colorPatente = Color.NARANJA;
 
@@ -24,6 +26,12 @@ public class Automovil {
     //                          ---METODOS INICIALIZADORES Y GET-SET----
 
 
+    public Automovil(String fabricante, Color color, String modelo, Motor motor, Tanque tanque, Persona conductor, Rueda[] ruedas) {
+        this(fabricante,color,modelo,motor,tanque);
+        this.conductor = conductor;
+        this.ruedas = ruedas;
+    }
+
     public Automovil(){
         this.id = ++ultimoId;
     }
@@ -38,14 +46,14 @@ public class Automovil {
         this.color = color;
     }
 
-    public Automovil(String fabricante, Color color, String modelo, double cilindrada) {
+    public Automovil(String fabricante, Color color, String modelo, Motor motor) {
         this(fabricante,modelo,color);
-        this.cilindrada = cilindrada;
+        this.motor = motor;
     }
 
-    public Automovil(String fabricante, Color color, String modelo, double cilindrada, int capacidadDelTanque) {
-        this(fabricante,color,modelo,cilindrada);
-        this.capacidadDelTanque = capacidadDelTanque;
+    public Automovil(String fabricante, Color color, String modelo, Motor motor, Tanque tanque) {
+        this(fabricante,color,modelo,motor);
+        this.motor = motor;
     }
 
     public String getFabricante() {
@@ -72,20 +80,24 @@ public class Automovil {
         this.modelo = modelo;
     }
 
-    public double getCilindrada() {
-        return cilindrada;
+    public Motor motor() {
+        return motor;
     }
 
-    public void setCilindrada(double cilindrada) {
-        this.cilindrada = cilindrada;
+    public void setCilindrada(Motor motor ) {
+        this.motor = motor;
     }
 
-    public int getCapacidadDelTanque() {
-        return capacidadDelTanque;
+    public Tanque tanque() {
+        return tanque;
     }
 
-    public void setCapacidadDelTanque(int capacidadDelTanque) {
-        this.capacidadDelTanque = capacidadDelTanque;
+    public void setCapacidadDelTanque(Tanque tanque) {
+        this.tanque = tanque;
+    }
+
+    public void setMotor(Motor motor) {
+        this.motor = motor;
     }
 
     public static Color getColorPatente(){
@@ -125,7 +137,7 @@ public class Automovil {
     public String verDetalle(){
         return  "auto.Id = " + this.id +
                 "\nFabricante = " + this.getFabricante() +
-                "\nCilindrada" + this .getCilindrada() +
+                "\nCilindrada" + this .motor().getCilindrada() +
                 "\nauto.tipo = " + this.getTipo().getDescripcion() +
                 "\nautto.patenteColor = " + colorPatente +
                 "\nColor" + this.getColor() +
@@ -147,10 +159,10 @@ public class Automovil {
     }
 
     public float calcularConsumo(int km, float porcentajeBencina ){
-        return km/(capacidadDelTanque*porcentajeBencina);
+        return km/(tanque.getCapacidad() * porcentajeBencina);
     }
     public float calcularConsumo(int km, int porcentajeBencina ){
-        return km/(capacidadDelTanque*(porcentajeBencina / 100f));
+        return km/(this.tanque.getCapacidad() * (porcentajeBencina / 100f));
     }
 
     public static float calcularConsumoStatico(int km, int porcentajeBencina){

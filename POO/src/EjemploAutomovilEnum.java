@@ -3,13 +3,13 @@ public class EjemploAutomovilEnum {
     public static void main(String[] args) {
 
         //         ---------------Primer Objeto------------------
-        Automovil ford =  new Automovil("ford",Color.ROJO,"Fiesta",2.0,50);
+        Automovil ford =  new Automovil("Ford","Mondeo");
         //ford.setFabricante("ford");
           //ford.setColor();
         ford.setTipo(TipoAutomovil.SEDAN);
 
         //         ---------------Segundo Objeto------------------
-        Automovil dodge = new Automovil("dodge",Color.NEGRO,"Ram",4.0,60);
+        Automovil dodge = new Automovil("dodge","Ram");
         dodge.setTipo(TipoAutomovil.SATION_WAGON);
         TipoAutomovil tipoDodge = dodge.getTipo();
 

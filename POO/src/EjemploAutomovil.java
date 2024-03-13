@@ -4,13 +4,15 @@ public class EjemploAutomovil {
     public static void main(String[] args) {
 
         //         ---------------Primer Objeto------------------
-        Automovil ford =  new Automovil("ford",Color.ROJO,"Fiesta",2.0,50);
+        Automovil ford =  new Automovil("ford","Mondeo");
 //        ford.setFabricante("ford");
-//         ford.setModelo( "Focus");
-
+        Motor motorFord = new Motor(2.0,TipoMotor.BENCINA);
+        ford.setMotor(motorFord);
+        //ford.setMotor(new Motor(2.0,TipoMotor.BENCINA)); MANERA DE INSTANCIAR OBJETO
+        System.out.println(ford.getTipo());
 
         //         ---------------Segundo Objeto------------------
-        Automovil dodge = new Automovil("dodge",Color.NEGRO,"Ram",4.0,60);
+//        Automovil dodge = new Automovil("dodge",Color.NEGRO,"Ram",4.0,60);
 
 
         //         ---------------Tercer Objeto------------------
@@ -31,6 +33,6 @@ public class EjemploAutomovil {
 
 
         System.out.println(ford);
-        System.out.println(dodge);
+
     }
 }
