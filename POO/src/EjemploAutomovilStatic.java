@@ -2,7 +2,7 @@ public class EjemploAutomovilStatic {
     public static void main(String[] args) {
 
         //         ---------------Primer Objeto------------------
-        Automovil ford =  new Automovil("ford","Mondeo");
+        Automovil ford =  new Automovil("ford","Mondeo",Color.ROJO);
         //ford.setFabricante("ford");
           //ford.setColor();
         ford.setTipo(TipoAutomovil.SEDAN);

@@ -135,13 +135,17 @@ public class Automovil {
 
 //                  METODOS FUNCIONALES
     public String verDetalle(){
-        return  "auto.Id = " + this.id +
+       String detalle=  "auto.Id = " + this.id +
                 "\nFabricante = " + this.getFabricante() +
-                "\nCilindrada" + this .motor().getCilindrada() +
-                "\nauto.tipo = " + this.getTipo().getDescripcion() +
-                "\nautto.patenteColor = " + colorPatente +
+                "\nCilindrada" + this .motor().getCilindrada();
+
+            if(this.getTipo() != null){
+                detalle += "\nauto.tipo = " + this.getTipo().getDescripcion();
+            }
+                detalle +="\nautto.patenteColor = " + colorPatente +
                 "\nColor" + this.getColor() +
                 "\nModelo" + this.getModelo();
+       return detalle;
     }
     public String acelerar(int rpm){
         return "el auto" + " " + fabricante +" " + "acelerando a " + rpm + "rpm";

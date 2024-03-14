@@ -23,6 +23,7 @@ public class EjemploAutomovil {
         System.out.println("Son iguales con equals? " + (ford.equals(ford2)));
         System.out.println(ford.verDetalle());
         //System.out.println(auto.equals(ford));
+        System.out.println(ford.verDetalle());
 
 
         System.out.println(ford.acelerar(3000));
