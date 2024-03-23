@@ -1,9 +1,9 @@
 public class Producto {
     private String fabricante;
     private String nombre;
-    private int precio;
+    private double precio;
 
-    public Producto(String fabricante, String nombre, int precio) {
+    public Producto(String fabricante, String nombre, double precio) {
         this.fabricante = fabricante;
         this.nombre = nombre;
         this.precio = precio;
@@ -17,7 +17,7 @@ public class Producto {
         return nombre;
     }
 
-    public int getPrecio() {
+    public double getPrecio() {
         return precio;
     }
 }

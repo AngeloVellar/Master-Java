@@ -131,8 +131,6 @@ public class Automovil {
         this.id = id;
     }
 
-
-
 //                  METODOS FUNCIONALES
     public String verDetalle(){
        String detalle=  "auto.Id = " + this.id +
@@ -147,6 +145,8 @@ public class Automovil {
                 "\nModelo" + this.getModelo();
        return detalle;
     }
+
+
     public String acelerar(int rpm){
         return "el auto" + " " + fabricante +" " + "acelerando a " + rpm + "rpm";
     }
