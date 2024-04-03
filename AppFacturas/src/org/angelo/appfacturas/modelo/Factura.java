@@ -1,8 +1,9 @@
 package org.angelo.appfacturas.modelo;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Facturas {
+public class Factura {
     private int folio;
     private String descripcion;
     private Date fecha;
@@ -12,7 +13,7 @@ public class Facturas {
     public static final int MAX_ITEMS = 12;
     private static int ultimoFolio;
 
-    public Facturas(String descripcion, Cliente cliente) {
+    public Factura(String descripcion, Cliente cliente) {
         this.descripcion = descripcion;
         this.cliente = cliente;
         this.items = new ItemFactura[MAX_ITEMS];
@@ -51,9 +52,32 @@ public class Facturas {
         return items;
     }
     public void addItemFactura(ItemFactura item){
-        if(indiceItems < MAX_ITEMS){
-            this.items[indiceItems++] = item;
+        for(int i = 0; i < items.length; i++){
+            this.items[i] = item;
         }
-
+    }
+    public float calcularTotal(){
+        float total = 0.0f;
+        for(ItemFactura item : this.items ){
+            if(item == null){
+                continue;
+            }
+            total += item.calcularImporte();
+        }
+        return total;
+    }
+    public String mostrarDetelle() {
+        StringBuilder sb = new StringBuilder("Factura N°: ");
+        sb.append(folio)
+                .append("\nCliente: ")
+                .append(this.cliente.getNombre())
+                .append("\t NIF: ")
+                .append(cliente.getNif())
+                .append("\nDescripción: ")
+                .append(this.descripcion)
+                .append("\n")
+                .append("\n#\tNombre\t$\tCant.\tTotal\n");
+        SimpleDateFormat df = new SimpleDateFormat()
+        return sb.toString();
     }
 }
