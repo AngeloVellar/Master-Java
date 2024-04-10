@@ -58,10 +58,8 @@ public class Factura {
     }
     public float calcularTotal(){
         float total = 0.0f;
-        for(ItemFactura item : this.items ){
-            if(item == null){
-                continue;
-            }
+        for(int i = 0; i < indiceItems; i++){
+            ItemFactura item = this.items[i];
             total += item.calcularImporte();
         }
         return total;
@@ -82,23 +80,19 @@ public class Factura {
                 .append("\n")
                 .append("\n#\tNombre\t$\tCant.\tTotal\n");
 
-        for(ItemFactura item: this.items){
-            if(item == null){
-                continue;
-            }
-            sb.append(item.getProducto().getCodigo())
-                    .append("\t")
-                    .append(item.getProducto().getNombre())
-                    .append("\t")
-                    .append(item.getProducto().getPrecio())
-                    .append("\t")
-                    .append(item.getCantidad())
-                    .append("\t")
-                    .append(item.calcularImporte())
+        for(int i = 0; i < indiceItems; i++){
+            ItemFactura item = this.items[i];
+            sb.append(item.toString())
                     .append("\n");
         }
         sb.append("\nGran Total: ")
                 .append(calcularTotal());
         return sb.toString();
+
+    }
+
+    @Override
+    public String toString() {
+        return mostrarDetelle();
     }
 }
