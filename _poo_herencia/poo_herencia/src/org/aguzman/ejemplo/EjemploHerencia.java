@@ -13,7 +13,6 @@ public class EjemploHerencia {
         alumno.setNotaCastellano(5.5);
         alumno.setNotaHistoria(6.3);
         alumno.setNotaMatematica(4.9);
-
         System.out.println("======= Creando la instancia de la clase AlumnoInternacional ======= ");
         AlumnoInternacional alumnoInt = new AlumnoInternacional();
         alumnoInt.setNombre("Peter");
