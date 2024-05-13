@@ -1,5 +1,11 @@
 public class Tigre extends Felino  {
 
+    private String especieTigre;
+
+    public Tigre(String habitad, Float alutra, Float largo, Float peso, String nombreCientifico, Float tamanioGarras, Integer velocidad) {
+        super(habitad, alutra, largo, peso, nombreCientifico, tamanioGarras, velocidad);
+    }
+
     @Override
     public String dormir() {
         return "";

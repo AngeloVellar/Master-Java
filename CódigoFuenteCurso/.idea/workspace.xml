@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1d60cd2-b7bf-4369-be5c-bad9b39039cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CódigoFuenteCurso.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poo_interfaces/poo_interfaces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_interfaces/poo_interfaces.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Canino.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Canino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Felino.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Felino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Guepardo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Guepardo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Leon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Leon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Lobo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Lobo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Mamifero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Mamifero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Perro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Tigre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoMamiferos/ProyecMamiferos/src/Tigre.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AngeloVellar"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AngeloVellar/Master-Java.git",
+    "accountId": "3c45c2c4-a4bc-4ab0-a05a-eb3d5345a603"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2g7HVrVbTTeUqzbcAIHiXqaTUnj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EjemploImprenta.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Estudio/Desktop/Programación/Master-Java/CódigoFuenteCurso"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="EjemploImprenta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.aguzman.poointerfaces.imprenta.EjemploImprenta" />
+      <module name="CódigoFuenteCurso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.aguzman.poointerfaces.imprenta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EjemploImprenta" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1d60cd2-b7bf-4369-be5c-bad9b39039cb" name="Changes" comment="" />
+      <created>1715041723186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715041723186</updated>
+    </task>
+    <servers />
+  </component>
+</project>
