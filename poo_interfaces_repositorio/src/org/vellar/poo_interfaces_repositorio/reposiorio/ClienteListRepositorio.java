@@ -54,10 +54,10 @@ public class ClienteListRepositorio implements CrudRepositorio, OrdenableReposit
     public List<Cliente> listar(String campo, Direccion dir) {
         return null;
         }
-    }
 
     @Override
     public List<Cliente> listar(int desde, int hasta) {
-        return null;
+        return List.of();
     }
 }
+
