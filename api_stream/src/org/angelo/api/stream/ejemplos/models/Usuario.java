@@ -1,14 +1,30 @@
 package org.angelo.api.stream.ejemplos.models;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
 public class Usuario {
     private String nombre;
     private String apellido;
     private Integer id;
     private static int UltimoId;
+
+    private List<Factura> facturas;
     public Usuario(String nombre, String apellido) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.id = ++UltimoId;
+        this.facturas = new ArrayList<>();
+    }
+
+    public List<Factura> getFacturas() {
+        return facturas;
+    }
+
+    public void addtFactura(Factura factura) {
+        this.facturas.add(factura);
+        factura.setUsuario(this);
     }
 
     public String getNombre() {
@@ -38,5 +54,18 @@ public class Usuario {
     @Override
     public String toString() {
         return nombre  + apellido;
+    }
+
+    @Override
+    public boolean equals(Object object) {
+        if (this == object) return true;
+        if (object == null || getClass() != object.getClass()) return false;
+        Usuario usuario = (Usuario) object;
+        return Objects.equals(nombre, usuario.nombre) && Objects.equals(apellido, usuario.apellido);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nombre, apellido);
     }
 }
