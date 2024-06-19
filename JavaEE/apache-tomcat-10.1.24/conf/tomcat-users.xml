@@ -53,6 +53,10 @@
   <user username="both" password="<must-be-changed>" roles="tomcat,role1"/>
 -->
 
+<!-- ejemplo
+  <user username="admin" password="12345" roles="admin,manager-gui-manager-status"/>
+  -->
+<user username="admin" password="12345" roles="manager-gui,manager-script,manager-jmx,manager-status"/>
 
-  <user username="admin" password="12345" roles="admin,manager-gui-manager-script"/>
+
 </tomcat-users>
