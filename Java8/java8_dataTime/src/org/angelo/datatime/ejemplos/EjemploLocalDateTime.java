@@ -32,7 +32,5 @@ public class EjemploLocalDateTime {
        String formato2 = fechaTiempo.format(df);
        System.out.println("formato2 = " + formato2);
 
-       
-
     }
 }
