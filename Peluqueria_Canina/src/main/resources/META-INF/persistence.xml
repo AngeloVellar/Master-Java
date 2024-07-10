@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.2">
+    <persistence-unit name="PeluCaninaPU" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <class>com.ar.peluqueriacanina.logica.Mascota</class>   <!-- Clases entidades -->
+        <class>com.ar.peluqueriacanina.logica.Duenio</class>
+        <properties>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/peluqueria_canina?serverTimezone=UTC"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value="root"/>
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+            <property name="hibernate.show_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
