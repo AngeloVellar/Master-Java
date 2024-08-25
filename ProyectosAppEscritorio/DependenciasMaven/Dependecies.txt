@@ -1,0 +1,38 @@
+--module-path "C:\Users\Estudio\Downloads\javafx-sdk-22.0.1\lib" --add-modules javafx.controls,javafx.fxml 
+Cómo estudiante de Sistemas, me gustaría incursionar por primera vez en una empresa de tecnología, en cualquiera de sus áreas. Poder trabajar en equipo aplicando y fortaleciendo metodologías agiles para un mejor resultado grupal como individual. Aprendiendo también de nuevos sectores para poder tener una visión más amplia del mundo tecnológico.       
+ <dependencies>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx</artifactId>
+            <version>22.0.1</version>
+            <type>pom</type>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-media</artifactId>
+            <version>22.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>22.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>22.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-base</artifactId>
+            <version>22.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>22.0.1</version>
+        </dependency>
+
+
+    </dependencies>

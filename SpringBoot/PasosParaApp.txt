@@ -1,0 +1,12 @@
+1° Creamos un proyecto con springboot y todas sus dependencias.
+2° Después de abrirlo configuramos el proyecto, el poo con sus dependencias, el arranque.. 
+3° cramos los packages, cómo "exceptions","repositories","models","controllers",etc.
+4° Creamos en resourses/templates un index.html que es nuestra vista HTML que luego ejecutaremos en un navegador, luego también
+creamos un application.properties.
+5°Añadimos un Bootstrap 5 a nuestra plantilla HTML, le agregamos el css, como el blom, algunos plugins, agregamos navbar
+
+--Los .properties para dejar mensajes de error en los campos--
+ 6° Creamos fragmentos(de los HTML en templates)  
+
+
+Símbolo: "~"

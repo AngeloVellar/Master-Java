@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <script type="text/javascript">
+        function validation(){
+            var isbn = document.getElementByld("isbn");
+            var miformulario=document.getElementByld("miformulario");
+            if(isbn.value ==""){
+                alert("datos no validos")
+                return false;
+            }else{
+                miformulario.submit();
+                }
+        }
+
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FormularioAltaLibro</title>
+   </head>
+<body>
+
+<form action="/guardarForm" method="post" onsubmit="return validation();">
+    <fieldset>
+        <legend> Formulario Alta Libro</legend>
+        <p><label> ISBN </label>
+        <input id="isbn" type="text" name="isbn"></p>
+        <p><label>Titulo</label>
+        <input id="titulo" type="text" name="titulo"></p>
+        <p><label>Categoria </label>
+        <input type="text" name="categoria"></p>
+        <p><input id="categoria" type="submit" value="Insertar" onsubmit="validation()"></p>
+
+    </fieldset>
+
+</form>
+</body>
+</html>

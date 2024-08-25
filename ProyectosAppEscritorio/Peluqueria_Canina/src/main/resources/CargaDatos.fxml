@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="691.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ar.peluqueriacanina.controllers.cargaDatosController">
+   <children>
+      <Label layoutX="206.0" layoutY="35.0" prefHeight="70.0" prefWidth="383.0" text="Carga de Datos">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Pane layoutX="7.0" layoutY="59.0" prefHeight="552.0" prefWidth="383.0">
+         <children>
+            <Label layoutX="14.0" layoutY="73.0" text="Nombre:" />
+            <Label layoutX="14.0" layoutY="113.0" text="Raza:" />
+            <Label layoutX="13.0" layoutY="157.0" text="Color:" />
+            <Label layoutX="14.0" layoutY="200.0" prefHeight="21.0" prefWidth="75.0" text="Alérgico:" />
+            <Label layoutX="13.0" layoutY="243.0" text="Atención Especial:" />
+            <Label layoutX="17.0" layoutY="287.0" prefHeight="21.0" prefWidth="126.0" text="Nombre Dueño: " />
+            <Label layoutX="14.0" layoutY="327.0" text="Cel. Dueño:" />
+            <Label layoutX="13.0" layoutY="366.0" text="Observaciones:" />
+            <TextField fx:id="txtNombre" layoutX="80.0" layoutY="68.0" prefHeight="31.0" prefWidth="296.0" />
+            <TextField fx:id="txtRaza" layoutX="80.0" layoutY="108.0" prefHeight="31.0" prefWidth="296.0" />
+            <TextField fx:id="txtColor" layoutX="80.0" layoutY="152.0" prefHeight="31.0" prefWidth="296.0" />
+            <TextField fx:id="txtNombreDuenio" layoutX="132.0" layoutY="282.0" prefHeight="31.0" prefWidth="243.0" />
+            <TextField fx:id="txtCelDuenio" layoutX="98.0" layoutY="322.0" prefHeight="31.0" prefWidth="277.0" />
+            <TextField fx:id="txtObservaciones" layoutX="119.0" layoutY="361.0" prefHeight="159.0" prefWidth="256.0" />
+            <ComboBox layoutX="80.0" layoutY="195.0" prefWidth="150.0" />
+            <TextField fx:id="txtAtencionEspecial" layoutX="137.0" layoutY="238.0" prefHeight="31.0" prefWidth="236.0" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="386.0" fitWidth="446.0" layoutX="398.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bvb.png" />
+         </image>
+         <effect>
+            <Blend />
+         </effect>
+      </ImageView>
+      <Button layoutX="523.0" layoutY="611.0" mnemonicParsing="false" onAction="#guardarDatos" prefHeight="40.0" prefWidth="87.0" text="Guardar" />
+      <Button layoutX="119.0" layoutY="603.0" mnemonicParsing="false" onAction="#limpiarMascota" prefHeight="40.0" prefWidth="87.0" text="Limpiar" />
+   </children>
+</AnchorPane>
